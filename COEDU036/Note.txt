@@ -1,5 +1,23 @@
 1. Học được cách duyệt Kernel qua 1 mảng 2 chiều
 
+  Ex: với Kernel 5x5, Matrix 8x8:
+  
+     - Kernel 5x5 ( trừ 2 ), kernel 7x7 ( trừ 3 )
+      
+      for (int i = 0; i < 5; i++)
+    {
+        if (r + i - 2  < 0 || r + i - 2 >= 8)
+            continue;
+        for (int j = 0; j < 5; j++)
+        {
+            if (c + j - 2 < 0 || c + j - 2 >= 8)
+                continue;
+
+            ..................
+        }
+    }
+
+
 2. Khác nhau giữa enum và define
 
   - define là 1 chỉ thị tiền xử lí, enum là cú pháp cho phép trình biên dịch có thể kiểm tra, gỡ lỗi

@@ -1,2 +1,6 @@
-- Học được cách duyệt Kernel qua 1 mảng 2 chiều
-- 
+1. Học được cách duyệt Kernel qua 1 mảng 2 chiều
+
+2. Khác nhau giữa enum và define
+
+  - define có thể sử dụng tùy ý giá trị bắt kì trong khi enum sẽ tăng dần theo mặc định nếu không được gán giá trị cụ thể
+  

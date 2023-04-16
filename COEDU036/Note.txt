@@ -4,6 +4,7 @@
 
   - define là 1 chỉ thị tiền xử lí, enum là cú pháp cho phép trình biên dịch có thể kiểm tra, gỡ lỗi
   - define có thể xác định giá trị từy ý bắt kì trong khi enum sẽ nhóm các giá trị, tăng dần theo mặc định nếu không được gán giá trị cụ thể
+    -> define dùng tốt với 1 giá trị bất kì, enum dùng tốt cho 1 nhóm giá trị hằng số
   - enum có thể làm kiểu trả về, cho phép xác định loại giá trị trả về -> gỡ lỗi
   - 
 

@@ -1,0 +1,2 @@
+- Học được cách duyệt Kernel qua 1 mảng 2 chiều
+- 

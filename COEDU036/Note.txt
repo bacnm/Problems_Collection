@@ -2,5 +2,13 @@
 
 2. Khác nhau giữa enum và define
 
-  - define có thể sử dụng tùy ý giá trị bắt kì trong khi enum sẽ tăng dần theo mặc định nếu không được gán giá trị cụ thể
+  - define là 1 chỉ thị tiền xử lí, enum là cú pháp cho phép trình biên dịch có thể kiểm tra, gỡ lỗi
+  - define có thể xác định giá trị từy ý bắt kì trong khi enum sẽ nhóm các giá trị, tăng dần theo mặc định nếu không được gán giá trị cụ thể
+  - enum có thể làm kiểu trả về, cho phép xác định loại giá trị trả về -> gỡ lỗi
+  - 
+
+3. Tìm hiểu được về cách set các giá trị mặc định cho mảng, về cách hàm memset hoạt động
+
+  - Chưa tìm được cách set giá trị mặc định cho mảng 2 chiều ngoại trừ giá trị 0 vì có thể sử dụng hàm memset
   
+  - Hàm memset set giá trị cho từng byte trong chuỗi( phải là từng byte, không thể là 2 byte( kiểu short), 4 byte ( kiểu int ) )

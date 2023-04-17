@@ -32,10 +32,10 @@ int main(){
 		f1 = 0, f2 = 0;
 		for (int i = 0; i < 100; i++)
 		{
-			res[i] = 0;
+			res[i] = NONE;
 			for (int j = 0; j < 100; j++)
 			{
-				matrix[i][j] = 0;
+				matrix[i][j] = NONE;
 			}
 			
 		}
@@ -59,7 +59,7 @@ int main(){
 			{
 				for (int j = 0; j < N; j++)
 				{
-					if( matrix[i][j] == 1 && res[j] != F0 ) res[j] = F1; // có thể bỏ qua đk i != j bởi đk res[j] != F0 đã thỏa mãn
+					if( ( matrix[i][j] == 1 ) && ( res[j] != F0 ) ) res[j] = F1; // có thể bỏ qua đk i != j bởi đk res[j] != F0 đã thỏa mãn
 				}
 				
 			}
@@ -67,14 +67,14 @@ int main(){
 
 		for (int i = 0; i < N; i++)
 		{
-			if( res[i] == NONE )
+			if( res[i] == F1 )
 			{
 				for (int  j = 0; j < N; j++)
 				{
-					if ( matrix[i][j] == 1 && ( i != j) ) 
+					if ( matrix[i][j] == 1 && res[j] == NONE ) // có thể bỏ qua đk i != j bởi đk res[j] == F1 đã thỏa mãn
 					{
-						res[i] = F2;
-						break;
+						res[j] = F2;
+						//break;
 					}
 				}
 				

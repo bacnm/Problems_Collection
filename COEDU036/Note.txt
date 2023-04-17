@@ -31,3 +31,7 @@
   - Chưa tìm được cách set giá trị mặc định cho mảng 2 chiều ngoại trừ giá trị 0 vì có thể sử dụng hàm memset
   
   - Hàm memset set giá trị cho từng byte trong chuỗi( phải là từng byte, không thể là 2 byte( kiểu short), 4 byte ( kiểu int ) )
+  
+  
+  
+ 4. Hiểu cách lưu các vị trí nhảy của con mã trong 2 mảng 1 chiều ( trong file solve_v2.cpp )

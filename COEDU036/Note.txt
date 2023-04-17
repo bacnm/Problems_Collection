@@ -1,3 +1,6 @@
+0. Code sai.
+
+
 1. Học được cách duyệt Kernel qua 1 mảng 2 chiều
 
   Ex: với Kernel 5x5, Matrix 8x8:
